@@ -1,9 +1,9 @@
 # on: [push]
 on:
   push:
-    branches: master
+    branches: staging
 
-name: Slack Notification Push Master
+name: Slack Notification Push Staging
 
 jobs:
   slackNotification:

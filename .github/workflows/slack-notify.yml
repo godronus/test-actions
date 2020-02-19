@@ -9,7 +9,8 @@ jobs:
     - name: Slack Notification
       uses: rtCamp/action-slack-notify@v2.0.0
       env:
+        SLACK_ICON: https://app.netlify.com/favicon-32x32.png
         SLACK_MESSAGE: 'Post Content :rocket:'
-        SLACK_TITLE: Post Title
+        SLACK_TITLE:
         SLACK_USERNAME: rtCamp
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}

@@ -3,7 +3,7 @@ on:
   push:
     branches: staging
 
-name: Slack Notification Push Staging
+name: Slack Notification Push Master
 
 jobs:
   slackNotification:

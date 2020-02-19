@@ -1,8 +1,10 @@
-on: [push]
-  # push:
-  #   branches:
-  #   - master         # Push events on master branch
-name: Slack Notification Demo
+# on: [push]
+on:
+  push:
+    branches: master
+
+name: Slack Notification Push Master
+
 jobs:
   slackNotification:
     name: Slack Notification

@@ -1,8 +1,9 @@
 on:
   push:
-    branches:
-    - master         # Push events on master branch
-name: Slack Notification Demo
+    branches: staging
+
+name: Slack Notification Push Staging
+
 jobs:
   slackNotification:
     name: Slack Notification
